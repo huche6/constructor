@@ -315,6 +315,7 @@ def make_nsi(info, dir_path, extra_files=None, temp_extra_files=None):
     ppd['initialize_by_default'] = info.get('initialize_by_default', None)
     ppd['register_python'] = info.get('register_python', True)
     ppd['register_python_default'] = info.get('register_python_default', None)
+    ppd['menu_shortcuts_default'] = info.get('menu_shortcuts_default', None)
     ppd['check_path_length'] = info.get('check_path_length', None)
     ppd['check_path_spaces'] = info.get('check_path_spaces', True)
     ppd['keep_pkgs'] = info.get('keep_pkgs') or False
