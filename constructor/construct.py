@@ -469,6 +469,11 @@ system's default Python. The user is still able to change this during
 interactive installation. (Windows only).
 '''),
 
+    ('menu_shortcuts_default', False, bool, '''
+Default choice for whether to create start menu shortcuts. The user is still able to change this during
+interactive installation. (Windows only).
+'''),
+
     ('check_path_length',     False, bool, '''
 Check the length of the path where the distribution is installed to ensure nodejs
 can be installed.  Raise a message to request shorter path (less than 46 character)
