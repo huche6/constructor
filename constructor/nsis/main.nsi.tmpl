@@ -634,6 +634,9 @@ Function .onInit
 #if initialize_conda is True and initialize_by_default is False
     StrCpy $Ana_AddToPath_State ${BST_UNCHECKED}
 #endif
+#if menu_shortcuts_default is False
+    StrCpy $Ana_CreateShortcuts_State ${BST_UNCHECKED}
+#endif
 #if register_python is True and register_python_default is True
     StrCpy $Ana_RegisterSystemPython_State ${BST_CHECKED}
 #endif
